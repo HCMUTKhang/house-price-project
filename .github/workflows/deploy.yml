@@ -23,7 +23,7 @@ jobs:
           # Script này sẽ chạy trực tiếp trên máy chủ EC2 của bạn
           script: |
             set -e  # <-- THÊM DÒNG NÀY: Bắt buộc dừng lại nếu có lỗi
-            
+
             # 1. Đi vào thư mục dự án
             cd ~/house-price-project
             
@@ -31,7 +31,8 @@ jobs:
             git pull origin main
             
             # 3. Yêu cầu Docker build lại image và chạy ngầm (d)
-            docker-compose up -d --build
+            # Dùng docker compose (có dấu cách) thay vì docker-compose
+            docker compose up -d --build
             
             # 4. Dọn dẹp các image/container cũ không dùng đến để tránh đầy ổ cứng
             docker image prune -f
