@@ -1,0 +1,29 @@
+{
+  "feature_cols": [
+    "sqft_living",
+    "bedrooms",
+    "bathrooms",
+    "floors",
+    "waterfront",
+    "view",
+    "condition",
+    "sqft_above",
+    "sqft_basement",
+    "house_age",
+    "was_renovated"
+  ],
+  "target_col": "log_price",
+  "note": {
+    "sqft_living": "Diện tích sử dụng (sqft)",
+    "bedrooms": "Số phòng ngủ (integer)",
+    "bathrooms": "Số phòng tắm (float, vd: 2.5)",
+    "floors": "Số tầng (float, vd: 1.5)",
+    "waterfront": "0 hoặc 1",
+    "view": "0 đến 4",
+    "condition": "1 đến 5",
+    "sqft_above": "Diện tích trên mặt đất (sqft)",
+    "sqft_basement": "Diện tích tầng hầm (sqft)",
+    "house_age": "Tuổi nhà = 2014 - yr_built",
+    "was_renovated": "0 hoặc 1"
+  }
+}

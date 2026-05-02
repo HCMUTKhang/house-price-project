@@ -1,0 +1,421 @@
+{
+  "summary": {
+    "total_transactions": 4499,
+    "median_price": 460886,
+    "mean_price": 527537,
+    "max_price": 1990000,
+    "min_price": 80000,
+    "date_range": "2014-05-02 to 2014-07-10"
+  },
+  "price_distribution": [
+    {
+      "range": "<200K",
+      "count": 188
+    },
+    {
+      "range": "200-300K",
+      "count": 744
+    },
+    {
+      "range": "300-400K",
+      "count": 823
+    },
+    {
+      "range": "400-500K",
+      "count": 792
+    },
+    {
+      "range": "500-600K",
+      "count": 625
+    },
+    {
+      "range": "600-700K",
+      "count": 425
+    },
+    {
+      "range": "700-800K",
+      "count": 293
+    },
+    {
+      "range": "800K-1M",
+      "count": 320
+    },
+    {
+      "range": "1M-2M",
+      "count": 289
+    }
+  ],
+  "price_by_city": [
+    {
+      "city": "Mercer Island",
+      "median": 940000,
+      "mean": 1037511,
+      "count": 75
+    },
+    {
+      "city": "Bellevue",
+      "median": 715000,
+      "mean": 796125,
+      "count": 273
+    },
+    {
+      "city": "Sammamish",
+      "median": 665000,
+      "mean": 685269,
+      "count": 169
+    },
+    {
+      "city": "Redmond",
+      "median": 635000,
+      "mean": 658034,
+      "count": 233
+    },
+    {
+      "city": "Newcastle",
+      "median": 602500,
+      "mean": 666046,
+      "count": 33
+    },
+    {
+      "city": "Woodinville",
+      "median": 562450,
+      "mean": 614912,
+      "count": 114
+    },
+    {
+      "city": "Issaquah",
+      "median": 560500,
+      "mean": 581759,
+      "count": 184
+    },
+    {
+      "city": "Snoqualmie",
+      "median": 536751,
+      "mean": 551850,
+      "count": 69
+    },
+    {
+      "city": "Kirkland",
+      "median": 515000,
+      "mean": 627816,
+      "count": 185
+    },
+    {
+      "city": "Seattle",
+      "median": 489000,
+      "mean": 558854,
+      "count": 1545
+    },
+    {
+      "city": "Bothell",
+      "median": 458000,
+      "mean": 481441,
+      "count": 33
+    },
+    {
+      "city": "Lake Forest Park",
+      "median": 455000,
+      "mean": 474855,
+      "count": 34
+    },
+    {
+      "city": "Vashon",
+      "median": 445000,
+      "mean": 472556,
+      "count": 29
+    },
+    {
+      "city": "Kenmore",
+      "median": 438000,
+      "mean": 454378,
+      "count": 65
+    },
+    {
+      "city": "Carnation",
+      "median": 432175,
+      "mean": 508751,
+      "count": 22
+    },
+    {
+      "city": "Duvall",
+      "median": 402750,
+      "mean": 403994,
+      "count": 42
+    },
+    {
+      "city": "North Bend",
+      "median": 394250,
+      "mean": 399565,
+      "count": 50
+    },
+    {
+      "city": "Shoreline",
+      "median": 360000,
+      "mean": 407403,
+      "count": 122
+    },
+    {
+      "city": "Renton",
+      "median": 345000,
+      "mean": 379632,
+      "count": 291
+    },
+    {
+      "city": "Maple Valley",
+      "median": 321000,
+      "mean": 340016,
+      "count": 95
+    },
+    {
+      "city": "Enumclaw",
+      "median": 289000,
+      "mean": 319007,
+      "count": 27
+    },
+    {
+      "city": "Burien",
+      "median": 287475,
+      "mean": 358640,
+      "count": 72
+    },
+    {
+      "city": "Kent",
+      "median": 283200,
+      "mean": 298995,
+      "count": 183
+    },
+    {
+      "city": "Auburn",
+      "median": 276000,
+      "mean": 301050,
+      "count": 175
+    },
+    {
+      "city": "Federal Way",
+      "median": 264950,
+      "mean": 295885,
+      "count": 145
+    },
+    {
+      "city": "Tukwila",
+      "median": 260000,
+      "mean": 252689,
+      "count": 27
+    },
+    {
+      "city": "Des Moines",
+      "median": 256975,
+      "mean": 304992,
+      "count": 58
+    },
+    {
+      "city": "Covington",
+      "median": 249500,
+      "mean": 257024,
+      "count": 41
+    },
+    {
+      "city": "SeaTac",
+      "median": 238500,
+      "mean": 254051,
+      "count": 28
+    }
+  ],
+  "price_by_sqft": [
+    {
+      "range": "<1000",
+      "median_price": 290900
+    },
+    {
+      "range": "1000-1500",
+      "median_price": 345000
+    },
+    {
+      "range": "1500-2000",
+      "median_price": 411857
+    },
+    {
+      "range": "2000-2500",
+      "median_price": 510000
+    },
+    {
+      "range": "2500-3000",
+      "median_price": 625000
+    },
+    {
+      "range": "3000-4000",
+      "median_price": 800000
+    },
+    {
+      "range": "4000-6000",
+      "median_price": 1050000
+    },
+    {
+      "range": ">6000",
+      "median_price": 1240000
+    }
+  ],
+  "price_by_bedrooms": [
+    {
+      "bedrooms": 1,
+      "median": 275000,
+      "count": 37
+    },
+    {
+      "bedrooms": 2,
+      "median": 370000,
+      "count": 560
+    },
+    {
+      "bedrooms": 3,
+      "median": 424500,
+      "count": 2017
+    },
+    {
+      "bedrooms": 4,
+      "median": 567000,
+      "count": 1492
+    },
+    {
+      "bedrooms": 5,
+      "median": 580000,
+      "count": 323
+    },
+    {
+      "bedrooms": 6,
+      "median": 665000,
+      "count": 55
+    },
+    {
+      "bedrooms": 7,
+      "median": 582000,
+      "count": 12
+    }
+  ],
+  "price_by_view": [
+    {
+      "view": 0,
+      "median": 442900,
+      "count": 4081
+    },
+    {
+      "view": 1,
+      "median": 690250,
+      "count": 66
+    },
+    {
+      "view": 2,
+      "median": 650000,
+      "count": 193
+    },
+    {
+      "view": 3,
+      "median": 845000,
+      "count": 108
+    },
+    {
+      "view": 4,
+      "median": 975000,
+      "count": 51
+    }
+  ],
+  "price_by_condition": [
+    {
+      "condition": 1,
+      "median": 365000,
+      "count": 5
+    },
+    {
+      "condition": 2,
+      "median": 250000,
+      "count": 30
+    },
+    {
+      "condition": 3,
+      "median": 464500,
+      "count": 2820
+    },
+    {
+      "condition": 4,
+      "median": 440000,
+      "count": 1228
+    },
+    {
+      "condition": 5,
+      "median": 550000,
+      "count": 416
+    }
+  ],
+  "waterfront_comparison": {
+    "no_waterfront": {
+      "median": 460000,
+      "count": 4478
+    },
+    "has_waterfront": {
+      "median": 947500,
+      "count": 21
+    }
+  },
+  "price_by_decade": [
+    {
+      "decade": 1900,
+      "median": 549000,
+      "count": 157
+    },
+    {
+      "decade": 1910,
+      "median": 516200,
+      "count": 167
+    },
+    {
+      "decade": 1920,
+      "median": 542500,
+      "count": 254
+    },
+    {
+      "decade": 1930,
+      "median": 555000,
+      "count": 109
+    },
+    {
+      "decade": 1940,
+      "median": 399950,
+      "count": 379
+    },
+    {
+      "decade": 1950,
+      "median": 393237,
+      "count": 478
+    },
+    {
+      "decade": 1960,
+      "median": 378000,
+      "count": 527
+    },
+    {
+      "decade": 1970,
+      "median": 441500,
+      "count": 458
+    },
+    {
+      "decade": 1980,
+      "median": 485000,
+      "count": 504
+    },
+    {
+      "decade": 1990,
+      "median": 513000,
+      "count": 479
+    },
+    {
+      "decade": 2000,
+      "median": 502262,
+      "count": 772
+    },
+    {
+      "decade": 2010,
+      "median": 515000,
+      "count": 215
+    }
+  ]
+}

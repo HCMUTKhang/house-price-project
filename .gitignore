@@ -1,0 +1,26 @@
+# Bỏ qua các file môi trường ảo của Python
+venv/
+env/
+.env
+
+# Bỏ qua các file rác sinh ra trong quá trình chạy code Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Bỏ qua file Jupyter Notebook checkpoint (sinh ra lúc làm file EDA)
+.ipynb_checkpoints/
+
+# Bỏ qua tập dữ liệu thô (Chỉ giữ lại model đã train để chạy API)
+*.csv
+data.csv
+data_clean.csv
+
+# BẢO MẬT TUYỆT ĐỐI: Không bao giờ đẩy chìa khóa EC2 lên mạng
+*.pem
+key.pem
+house-price-key.pem
+
+# Bỏ qua file hệ thống của Mac/Windows
+.DS_Store
+Thumbs.db
