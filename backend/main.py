@@ -2,8 +2,18 @@ from fastapi import FastAPI
 import joblib, json, numpy as np
 from pydantic import BaseModel
 from typing import Literal
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="House Price Prediction API")
+
+# Cấu hình CORS để Frontend (ReactJS) có thể gọi được API mà không bị chặn
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Cho phép mọi domain gọi API (khi đưa lên thật có thể giới hạn lại)
+    allow_credentials=True,
+    allow_methods=["*"],  # Cho phép mọi method (GET, POST, OPTIONS...)
+    allow_headers=["*"],  # Cho phép mọi header
+)
 
 # Load tất cả model khi server start
 models = {
