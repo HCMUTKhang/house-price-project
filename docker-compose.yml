@@ -6,3 +6,15 @@ services:
     ports:
       - "8000:8000"
     restart: always
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: http://${EC2_HOST}:8000
+    container_name: react_frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+    restart: always
