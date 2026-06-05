@@ -35,6 +35,11 @@ export default function PredictPage() {
       <h1>Predict House Price</h1>
       <p className="sub">Enter property details to get an estimated market price from trained ML models.</p>
 
+      <div style={{ display: 'flex', alignItems: 'center', gap: '.6rem', marginBottom: '1rem', padding: '.6rem 1rem', background: 'var(--bg2)', borderRadius: 8, border: '1px solid var(--border)', fontSize: 13, color: 'var(--muted)' }}>
+        <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#22c55e', display: 'inline-block', flexShrink: 0 }} />
+        <span>Deployed automatically via <strong style={{ color: 'var(--text)' }}>GitHub Actions CI/CD</strong> — push to <code>main</code> triggers build &amp; deploy to EC2.</span>
+      </div>
+
       <div className="predict-layout">
         {/* LEFT — form */}
         <form onSubmit={handleSubmit}>
