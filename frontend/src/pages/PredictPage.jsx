@@ -165,7 +165,7 @@ export default function PredictPage() {
             </ol>
             <div style={{ marginTop: '.85rem', padding: '.7rem', background: 'var(--bg3)', borderRadius: 8, fontSize: 12, color: 'var(--muted)', lineHeight: 1.7 }}>
               Backend endpoint: <span className="code">POST /api/v1/predict</span><br />
-              Set your backend URL in <span className="code">.env</span> → <span className="code">VITE_API_URL</span>
+              {/* Set your backend URL in <span className="code">.env</span> → <span className="code">VITE_API_URL</span> */}
             </div>
           </div>
         </div>
